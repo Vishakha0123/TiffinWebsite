@@ -19,12 +19,10 @@ const Plans = () => {
   return (
     <div className="text-white">
 
-      {/* Background Section */}
       <section
         className="relative min-h-screen w-full bg-cover bg-center bg-no-repeat px-6 md:px-12 py-20"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
-        {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/65"></div>
 
         <div className="relative max-w-6xl mx-auto">
@@ -61,13 +59,10 @@ const Plans = () => {
           </Swiper>
         </div>
       </section>
-
-      {/* Footer */}
       <footer className="text-center py-6 text-gray-300 border-t border-white/20">
         © 2025 Tiffin Service
       </footer>
 
-      {/* Plan Selection Modal */}
       <CartModal
         isOpen={!!selectedPlan}
         plan={selectedPlan}
@@ -78,3 +73,4 @@ const Plans = () => {
 };
 
 export default Plans;
+
