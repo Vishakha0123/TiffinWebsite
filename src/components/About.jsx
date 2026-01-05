@@ -3,14 +3,12 @@ import bgImage from "../assets/img/hero.jpg";
 
 const About = () => {
   return (
-    <div className="text-white">  {/* ✅ Removed white background */}
+    <div className="text-white">  
 
-      {/* About Section with Background */}
       <section
         className="relative min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center px-6 md:px-20 py-20"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
-        {/* Gradient overlay for readability */}
         <div className="absolute inset-0 bg-black/65"></div>
 
         <div className="relative max-w-3xl">
@@ -30,7 +28,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="text-center py-6 text-gray-300 border-t border-white/20">
         © 2025 Tiffin Service
       </footer>
@@ -40,5 +37,6 @@ const About = () => {
 };
 
 export default About;
+
 
 
