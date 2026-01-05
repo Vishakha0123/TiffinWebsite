@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-import bgImage from "../assets/img/hero.jpg"; // ✅ ensure correct path
+import bgImage from "../assets/img/hero.jpg"; 
 
 const Register = () => {
   const navigate = useNavigate();
@@ -14,15 +14,12 @@ const Register = () => {
   return (
     <div className="text-white">
 
-      {/* Background Section */}
       <section
         className="relative min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center px-6"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
-        {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/60"></div>
 
-        {/* Register Card */}
         <form
           onSubmit={handleRegister}
           className="relative max-w-md w-full bg-white/90 backdrop-blur-sm border border-white/40 rounded-xl p-8 shadow-lg space-y-4 text-gray-800"
@@ -71,7 +68,6 @@ const Register = () => {
         </form>
       </section>
 
-      {/* Footer */}
       <footer className="text-center py-6 text-gray-300 border-t border-white/20">
         © 2025 Tiffin Service
       </footer>
@@ -80,3 +76,4 @@ const Register = () => {
 };
 
 export default Register;
+
