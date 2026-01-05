@@ -8,13 +8,10 @@ const Home = () => {
 
       
 
-      {/* Hero Section */}
-      {/* Hero Section with Full Background Image */}
 <section
   className="relative min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center px-6 md:px-20"
   style={{ backgroundImage: `url(${bgImage})` }}
 >
-  {/* Dark gradient overlay */}
   <div className="absolute inset-0 bg-gradient-to-r from-black/75 to-transparent"></div>
 
   <div className="relative max-w-xl text-left text-white">
@@ -51,7 +48,6 @@ const Home = () => {
 
 
 
-      {/* Why Choose Us */}
       <section className="max-w-4xl mx-auto px-6 text-center mt-12">
         <h2 className="text-3xl font-semibold text-black">Why choose us?</h2>
         <p className="text-lg mt-4 text-gray-700 leading-relaxed">
@@ -60,7 +56,6 @@ const Home = () => {
         </p>
       </section>
 
-      {/* Footer */}
       <footer className="text-center py-6 text-gray-600 border-t mt-16">
         © 2025 Tiffin Service
       </footer>
@@ -70,4 +65,5 @@ const Home = () => {
 };
 
 export default Home;
+
 
