@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-import bgImage from "../assets/img/hero.jpg"; // ✅ make sure this path is correct
+import bgImage from "../assets/img/hero.jpg"; 
 
 const Login = () => {
   const navigate = useNavigate();
@@ -71,5 +71,6 @@ const Login = () => {
 };
 
 export default Login;
+
 
 
