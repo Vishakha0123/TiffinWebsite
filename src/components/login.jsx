@@ -16,15 +16,12 @@ const Login = () => {
   return (
     <div className="text-white">
 
-      {/* Background Section */}
       <section
         className="relative min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center px-6"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
-        {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/60"></div>
 
-        {/* Login Card */}
         <form
           onSubmit={handleLogin}
           className="relative max-w-md w-full bg-white/90 backdrop-blur-sm border border-white/40 rounded-xl p-8 shadow-lg space-y-4 text-gray-800"
@@ -65,7 +62,6 @@ const Login = () => {
         </form>
       </section>
 
-      {/* Footer */}
       <footer className="text-center py-6 text-gray-300 border-t border-white/20">
         © 2025 Tiffin Service
       </footer>
@@ -75,4 +71,5 @@ const Login = () => {
 };
 
 export default Login;
+
 
