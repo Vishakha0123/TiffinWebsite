@@ -12,15 +12,12 @@ const Contact = () => {
   return (
     <div className="text-white">
 
-      {/* Background Section */}
       <section
         className="relative min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center px-6 py-16"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
-        {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/65"></div>
 
-        {/* Contact Card */}
         <div className="relative max-w-xl w-full bg-white/90 backdrop-blur-sm border border-white/40 rounded-xl p-8 text-gray-800 shadow-lg">
           <h2 className="text-3xl font-semibold text-[#C66B3D] mb-6 text-center">
             Send us a message
@@ -69,7 +66,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="text-center py-6 text-gray-300 border-t border-white/20">
         © 2025 Tiffin Service
       </footer>
@@ -79,3 +75,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
